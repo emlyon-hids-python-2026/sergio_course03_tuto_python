@@ -1,0 +1,21 @@
+[project]
+name = "sergio-course03-tuto-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SERGIO FELEFLE", email = "feleflfesergio03@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+sergio-course03-tuto-python = "sergio_course03_tuto_python:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
